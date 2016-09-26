@@ -4,5 +4,9 @@ startmonth: 10/2010
 endmonth: 9/2011
 startweather: 600
 timestep: 6
+
+# type of optimization SWGW = optimize both surfacewater & groundwater
 optimtype: SWGW
+
+# set the resevior capacity 0 (no resevior use) -->
 rescap: zero

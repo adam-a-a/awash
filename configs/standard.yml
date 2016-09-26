@@ -9,12 +9,13 @@ netset: usa
 startmonth: 10/2000
 endmonth: 9/2010
 
-# First entry in VIC_WB to include
+# First entry in VIC_WB to include (the weather you want to simulate for a given year)
 startweather: 612
 
 # Months per time step
 timestep: 6
 
+# config file where you can specify usage specifics for people but dont worry about this yet
 urbandemand-path: demand/urbandemand_May11.csv
 urbandemand-column: per_capita
 urbandemand-transform: repcap
